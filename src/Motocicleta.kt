@@ -4,6 +4,6 @@ class Motocicleta(marca: String, modelo: String, capacidadCombustible: Int, val 
     }
 
     override fun mostrarInformacion() {
-        println("Vehículo(marca = $marca, modelo = $modelo, capacidadCombustible = $capacidadCombustible, cilindrada = $cilindrada)")
+        println("Motocicleta(marca = $marca, modelo = $modelo, capacidadCombustible = $capacidadCombustible, cilindrada = $cilindrada)")
     }
 }

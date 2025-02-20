@@ -6,6 +6,6 @@ fun main() {
     println("Autonomía: ${coche.calcularAutonomia()} Km")
 
     moto.mostrarInformacion()
-    println("Autonomía: ${coche.calcularAutonomia()} Km")
+    println("Autonomía: ${moto.calcularAutonomia()} Km")
 
 }
